@@ -19,5 +19,8 @@ from webapp import views as webapp_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', webapp_views.index_view)
+    path('', webapp_views.index_view),
+    path('game/',webapp_views.game),
+    path('story/',webapp_views.story)
+
 ]
